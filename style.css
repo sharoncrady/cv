@@ -1,27 +1,15 @@
-body {
- background-color: white;
-}
-
 .blue-text {
  color: blue;
 }
 
   title {
-    color:green;
+    color: green;
   }
-  
-    html {
-      background:lightblue;
-    }
 
       h2 {
-      color:green;
-    }
-
-      html {
-      background:lightblue;
-    }
+      color: green;
+  }
   
      h1 {
       color: blue;
-    } 
+  }
