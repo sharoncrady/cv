@@ -13,3 +13,8 @@
      .h1 {
       color: blue;
   }
+
+.dot {
+ width: 150px;
+ height: 100px;
+}
