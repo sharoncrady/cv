@@ -14,7 +14,12 @@ body {
   background-color: lightblue;
 }
 
+.div-dimensions {
+  height: 200px;
+  width: 600px;
+  text-align: left;
+}
 
-
-  
-  
+.line-spacing {
+  padding: 20px;
+}
