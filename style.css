@@ -20,7 +20,7 @@ title {
 }
 
 .line-spacing {
-  padding: 20px;
+  padding: 30px;
 }
 
 img {
@@ -38,17 +38,12 @@ ol {
   margin-top: -20px;
   list-style-position: inside;
 }
-  
 
-
-
-
-
-/*
-p {
+.red-selector hover {
   color: red;
 }
-*/
+
+
 
 
 .note {
