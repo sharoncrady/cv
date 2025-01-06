@@ -113,17 +113,17 @@ footer {
 }
   
 page2 {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  position: auto;
+  bottom: 0px;
+  left: 0px;
   width: 100%;
   text-align: center;
 }
 
 page3 {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  position: auto;
+  bottom: 0px;
+  left: 0px;
   width: 100%;
   text-align: center;
 }
