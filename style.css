@@ -105,7 +105,11 @@ div {
 
 
 footer {
-  margin-top: auto;
+  position: auto;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
 }
   
 page2 {
