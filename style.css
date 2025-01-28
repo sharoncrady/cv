@@ -139,16 +139,4 @@ button {
                     0 0 10px 0 crimson inset;
       }
 
-#wrapper{
-min-height:100%;
-position: auto;
-}
 
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom 2.5rem;
-}
