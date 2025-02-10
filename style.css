@@ -24,11 +24,13 @@ title {
 }
 
 img {
-  height: 200px;
-  width: 200px;
+  
+  width: 19px;
 }
 
-
+div {
+  width: 100%;
+}
 
 
 
@@ -66,10 +68,7 @@ li[value="4"] {
 
 
 
-img {
-  height: 200px;
-  width: 200px;
-}
+
 
 .color-title {
   font-weight: normal;
@@ -136,5 +135,6 @@ button {
                     0 0 30px 0 crimson,
                     0 0 10px 0 crimson inset;
       }
+
 
 
