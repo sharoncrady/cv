@@ -24,12 +24,13 @@ title {
 }
 
 img {
-  
-  width: 200px;
+  height: 200%;
+  width: 200%;
 }
 
 div {
-  width: 100%;
+  height: 200%;
+  width: 200%;
 }
 
 
