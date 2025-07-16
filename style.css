@@ -143,3 +143,20 @@ ul {
 li {
   list style type: dise;
 }
+
+
+
+.div-dimensions {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 60px;  /* 👈 adds space below the paragraph */
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;   /* 👈 adds space above footer */
+}
