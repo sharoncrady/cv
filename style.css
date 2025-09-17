@@ -176,3 +176,17 @@ footer {
   height: 1200px;      /* adjust if your form gets cut off */
   border: 0;
 }
+
+
+.form-wrap{
+  max-width: 900px;     /* nice readable width on desktop */
+  margin: 24px auto;    /* center the block */
+  padding: 0 12px;      /* breathing room on mobile */
+}
+
+.form-wrap iframe{
+  width: 100% !important;   /* force full width */
+  max-width: 100% !important;
+  height: 1200px;           /* bump higher if you still see vertical scroll */
+  border: 0;
+}
