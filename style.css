@@ -173,6 +173,6 @@ footer {
 
 .form-container iframe {
   width: 100%;        /* responsive width */
-  height: 900px;      /* adjust if your form gets cut off */
+  height: 1000px;      /* adjust if your form gets cut off */
   border: 0;
 }
