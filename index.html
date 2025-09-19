@@ -1,42 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <meta charset="UTF-8">
+<head>
+  <meta charset="UTF-8" />
   <title>Sharon Fitzgerald's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
- </head>
-  <body style="background-color: lightblue;">
-   
-<center>
-  <h1 class="h1">Sharon Fitzgerald's Portfolio</h1>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Sharon Fitzgerald's Portfolio</h1>
+    <h2>I'm A Web Developer</h2>
 
-  <h2>I'm A Web Developer</h2>
-  <hr>
-  <a href="page2.html">Page 2</a>
-  <a href="page3.html">3</a>
-  <hr>
-  <h3><a href="movie ranking project.html">Movie Ranking</a></h3>
-  <img src="Movie Ranking Project.png" height="200" alt="movie ranking project preview">
-  <h3><a href="birthday-invite.html">Birthday Invite</a></h3>
-  <img src="Birthday Invite.png" height="200" alt="birthday invite project preview">
-  <h3><a href="adding css project.html">Three Methods of Adding CSS</a></h3>
-  <img src="Methods of Adding CSS.png" height="200">
-  <h3><a href="css selectors.html">CSS Selectors</a></h3>
-  <img src="CSS Selectors.png" height="200">
-  <h3><a href="color vocab project.html">Color Vocab</a></h3>
-  <img src="Color Vocab.png" height="200">
-  <h3><a href="css colors.html">CSS Colors</a></h3>
-  <img src="CSS Colors.png" height="200">
-  <br>
- 
-</center>
+    <nav class="top-nav">
+      <a href="page2.html">Page 2</a>
+      <a href="page3.html">3</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="grid">
+      <!-- Movie Ranking -->
+      <article class="card">
+        <h3><a href="movie ranking project.html">Movie Ranking</a></h3>
+        <a href="movie ranking project.html">
+          <img class="thumb" src="Movie Ranking Project.png" alt="Movie Ranking project preview" />
+        </a>
+      </article>
+
+      <!-- Birthday Invite -->
+      <article class="card">
+        <h3><a href="birthday-invite.html">Birthday Invite</a></h3>
+        <a href="birthday-invite.html">
+          <img class="thumb" src="Birthday Invite.png" alt="Birthday invite project preview" />
+        </a>
+      </article>
+
+      <!-- Three Methods of Adding CSS -->
+      <article class="card">
+        <h3><a href="adding css project.html">Three Methods of Adding CSS</a></h3>
+        <a href="adding css project.html">
+          <img class="thumb" src="Methods of Adding CSS.png" alt="Three methods of adding CSS preview" />
+        </a>
+      </article>
+
+      <!-- CSS Selectors -->
+      <article class="card">
+        <h3><a href="css selectors.html">CSS Selectors</a></h3>
+        <a href="css selectors.html">
+          <img class="thumb" src="CSS Selectors.png" alt="CSS Selectors preview" />
+        </a>
+      </article>
+
+      <!-- Color Vocab -->
+      <article class="card">
+        <h3><a href="color vocab project.html">Color Vocab</a></h3>
+        <a href="color vocab project.html">
+          <img class="thumb" src="Color Vocab.png" alt="Color vocabulary preview" />
+        </a>
+      </article>
+
+      <!-- CSS Colors -->
+      <article class="card">
+        <h3><a href="css colors.html">CSS Colors</a></h3>
+        <a href="css colors.html">
+          <img class="thumb" src="CSS Colors.png" alt="CSS colors preview" />
+        </a>
+      </article>
+    </section>
+
+    <div class="button-row">
+      <a class="btn" href="about.html">About</a>
+      <a class="btn" href="contact.html">Contact</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Sharon Fitzgerald. All rights reserved.</p>
+  </footer>
 </body>
- <footer><a href="page2.html">Page 2</a>
-  <a href="page3.html">3</a>
-  <hr>
-  <a href="about.html" class="contact-button">About</a>
-  <a href="contact.html" class="contact-button">Contact</a>
-</footer>
 </html>
 
 
