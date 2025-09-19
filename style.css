@@ -229,3 +229,20 @@ footer {
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
+
+
+.footer-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.footer-button:hover {
+  background-color: darkgreen;
+}
