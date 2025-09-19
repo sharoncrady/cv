@@ -246,3 +246,19 @@ footer {
 .footer-button:hover {
   background-color: darkgreen;
 }
+
+
+.home-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4CAF50; /* green */
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.home-button:hover {
+  background-color: #45a049; /* darker green on hover */
+}
