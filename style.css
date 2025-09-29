@@ -304,3 +304,30 @@ h1 {
   background-color: #ccc;
 }
 
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style navigation links */
+.nav-button {
+  background-color: transparent;
+  color: darkblue;
+  border: 1px solid darkblue;
+}
+
+/* Style Contact button */
+.contact-button {
+  background-color: green;
+  color: white;
+  border: none;
+}
