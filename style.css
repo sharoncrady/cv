@@ -270,8 +270,10 @@ h1 {
 }
 
 .tagline {
-  font-size: 1.1em;
-  color: #555; /* softer gray to distinguish from header */
-  margin-top: -10px; /* pulls it closer to header */
-  font-style: italic; /* optional, gives a subtle emphasis */
+  text-align: center;
+  font-size: 1.2em;
+  color: #444;
+  font-weight: bold; /* bold style instead of italic */
+  margin-top: 0;
+  margin-bottom: 20px;
 }
