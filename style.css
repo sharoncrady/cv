@@ -306,16 +306,16 @@ h1 {
 footer {
   text-align: center;
   padding: 20px;
+  margin-top: 40px; /* new: pushes footer below your text */
 }
 
 footer a {
-  display: inline-block;
-  margin: 0 10px;
+  margin: 0 15px;    /* space between links */
   padding: 10px 20px;
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-}
+  color: darkblue;
+  font-weight: bold;
+  }
 
 /* Style navigation links */
 .nav-button {
