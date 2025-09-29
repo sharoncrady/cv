@@ -331,3 +331,10 @@ footer a {
   color: white;
   border: none;
 }
+
+
+body {
+  background-color: lightblue;
+  margin: 0;
+  font-family: sans-serif;
+}
