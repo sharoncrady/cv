@@ -337,3 +337,18 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+
+
+.container { max-width: 800px; margin: 0 auto; text-align: center; padding: 20px; }
+.content p { line-height: 1.6; margin: 0 0 16px; }
+.tagline { margin: -6px 0 18px; color:#444; font-weight:600; }
+
+.site-nav { display:flex; justify-content:center; gap:12px; margin:16px 0 10px; }
+.nav-button { display:inline-block; background:#eee; padding:6px 12px; border-radius:6px;
+  text-decoration:none; color:darkblue; font-weight:600; }
+.nav-button:hover { background:#dcdcdc; }
+
+.cta { text-align:center; margin: 6px 0 0; }
+.contact-button { display:inline-block; background:#6cbf3a; color:#fff; padding:10px 18px;
+  border-radius:8px; text-decoration:none; font-weight:700; }
+.contact-button:hover { filter:brightness(0.95); }
