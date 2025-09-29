@@ -262,3 +262,16 @@ footer {
 .home-button:hover {
   background-color: #45a049; /* darker green on hover */
 }
+
+
+h1 {
+  font-size: 2em;
+  color: #0044cc; /* or whatever your current header color is */
+}
+
+.tagline {
+  font-size: 1.1em;
+  color: #555; /* softer gray to distinguish from header */
+  margin-top: -10px; /* pulls it closer to header */
+  font-style: italic; /* optional, gives a subtle emphasis */
+}
