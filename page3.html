@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <style>
     body {
-      background-color: #f8f9fa;
+      background-color: lightblue; /* BLUE BACKGROUND */
       font-family: sans-serif;
       margin: 0;
       padding: 20px;
@@ -36,6 +36,11 @@
     ul li a:hover {
       text-decoration: underline;
     }
+    img {
+      width: 200px;
+      margin: 10px;
+      border-radius: 5px;
+    }
     footer {
       margin-top: 40px;
     }
@@ -55,9 +60,15 @@
   <h3>Latest Posts</h3>
   <ul>
     <li><a href="posts/first-post.html">Hello World! My First Post</a></li>
-    <!-- Add new posts here like: -->
-    <!-- <li><a href="posts/second-post.html">My Journey to Colorado</a></li> -->
   </ul>
+
+  <!-- Cat Photos linked to first post -->
+  <a href="posts/first-post.html">
+    <img src="cat1.jpg" alt="Cat 1">
+  </a>
+  <a href="posts/first-post.html">
+    <img src="cat2.jpg" alt="Cat 2">
+  </a>
 
   <footer>
     <a href="index.html">Home</a>
